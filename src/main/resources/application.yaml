@@ -1,7 +1,7 @@
 eureka:
   client:
     serviceUrl:
-      defaultZone: ${EUREKA_HOST:http://discovery-service-food-app.herokuapp.com:49226/eureka/}
+      defaultZone: ${EUREKA_HOST:http://discovery-service-food-app.herokuapp.com/eureka/}
   instance:
     instance-id: food-backend-instance-1
 server:
