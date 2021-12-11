@@ -4,6 +4,7 @@ eureka:
       defaultZone: ${EUREKA_HOST:http://discovery-service-food-app.herokuapp.com/eureka/}
   instance:
     instance-id: food-backend-instance-1
+    homePageUrl: https://be-food-instance1.herokuapp.com/
 server:
   port: 8080
 spring:
