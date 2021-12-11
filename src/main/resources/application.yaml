@@ -1,9 +1,11 @@
-#eureka:
-#  client:
-#    serviceUrl:
-#      defaultZone: ${EUREKA_HOST:http://localhost:9098/eureka/}
-#  instance:
-#    instance-id: food-backend-instance-1
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_HOST:http://localhost:5000/eureka/}
+  instance:
+    instance-id: food-backend-instance-1
+server:
+  port: 5000
 spring:
   application:
     name: backend
