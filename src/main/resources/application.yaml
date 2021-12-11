@@ -1,11 +1,9 @@
 eureka:
   client:
     serviceUrl:
-      defaultZone: ${EUREKA_HOST:http://localhost:5000/eureka/}
+      defaultZone: ${EUREKA_HOST:http://discovery-service-food-app.herokuapp.com:49226/eureka/}
   instance:
     instance-id: food-backend-instance-1
-server:
-  port: 5000
 spring:
   application:
     name: backend
